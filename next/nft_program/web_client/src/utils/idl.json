@@ -1,0 +1,124 @@
+{
+    "version": "0.1.0",
+    "name": "nft_program",
+    "instructions": [
+        {
+            "name": "createNft",
+            "accounts": [
+                {
+                    "name": "authority",
+                    "isMut": true,
+                    "isSigner": true,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "payer",
+                    "isMut": true,
+                    "isSigner": true,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "mint",
+                    "isMut": true,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "tokenAccount",
+                    "isMut": true,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "associatedTokenProgram",
+                    "isMut": false,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "rent",
+                    "isMut": false,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "tokenProgram",
+                    "isMut": false,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "metadataProgram",
+                    "isMut": false,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "masterEditionAccount",
+                    "isMut": true,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                },
+                {
+                    "name": "nftMetadata",
+                    "isMut": true,
+                    "isSigner": false,
+                    "pda": {
+                        "seeds": []
+                    }
+                }
+            ],
+            "args": [
+                {
+                    "name": "id",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "name": "uri",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "accounts": [],
+    "types": [],
+    "events": [],
+    "errors": [],
+    "metadata": {
+        "address": ""
+    }
+}

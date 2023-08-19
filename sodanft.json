@@ -1,0 +1,26 @@
+{
+    "name": "SodaNFT",
+    "symbol": "ARG",
+    "description": "Soda tool",
+    "image": "https://quicknode.myfilebase.com/ipfs/QmSktFXAsjXZCM1W3JtdqATYaHMUeVwozMk1SNAqWsmwuA",
+    "attributes": [
+        {
+            "trait_type": "PROMO_CODE",
+            "value": "BUILD-AMB-5"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "type": "image/png",
+                "uri": "ipfs://QmSktFXAsjXZCM1W3JtdqATYaHMUeVwozMk1SNAqWsmwuA/"
+            }
+        ]
+    },
+    "collection": {
+        "name": "SODA",
+        "family": "ToolArg"
+    }
+}
+
+
